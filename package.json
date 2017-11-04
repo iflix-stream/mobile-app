@@ -1,0 +1,26 @@
+{
+  "name": "iflix",
+  "displayName": "IFlix Streaming",
+  "version": "1.0.0",
+  "description": "IFlix é um serviço de streaming de filmes e séries na palma da sua mão.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IFlix Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-browser": "^5.0.1",
+    "cordova-plugin-whitelist": "^1.3.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  }
+}
